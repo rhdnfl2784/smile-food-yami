@@ -127,4 +127,27 @@ a, a:link {
 }
 
 
-/* ============== 반응형 스타일 =============== */
+/* ============== 어사이드 스타일 =============== */
+aside {
+    margin: 50px 0 30px;
+}
+.extra-links {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.extra-links li:nth-child(2) {
+    margin: 0 15px;
+}
+/* ============== 푸터 스타일 =============== */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+address {
+    margin: 1rem 0;
+}
