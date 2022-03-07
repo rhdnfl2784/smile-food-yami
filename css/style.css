@@ -39,6 +39,9 @@ a, a:link {
 .header-links {
     float: right;
     margin: 15px 0 0 0;
+    font-size: 13px;
+    color: #888;
+    font-weight: 500;
 }
 .header-links li {
     float: left;
@@ -47,6 +50,9 @@ a, a:link {
 
 .header-bottom {
     border-top: 1px solid #d60c00;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
 }
 .header-bottom::after {
     content: '';
@@ -79,6 +85,7 @@ a, a:link {
     position: absolute;
     left: 40%;
     top: 40%;
+    text-shadow: 2px 2px 5px #333;
 }
 .slogan-text p:nth-child(1){
     font-size: 2rem;
@@ -110,7 +117,24 @@ a, a:link {
     display: inline-block;
 }
 
-/* ============== 푸터영역 =============== */
-
-
+/* ============== 본문영역 =============== */
+#main h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0;
+    font-size: 22px;
+    color: #d60c00;
+    font-weight: 900;
+}
+.prd-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.prd-list li {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 /* ============== 반응형 스타일 =============== */
