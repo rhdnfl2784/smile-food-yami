@@ -33,7 +33,9 @@ a, a:link {
 }
 .header-links {
     display: flex;
-    column-gap: 20px;
+}
+.header-links li {
+    margin: 0 0 0 15px;
 }
 
 .header-bottom {
@@ -125,23 +127,37 @@ a, a:link {
     border-radius: 50%; /* 원형, 1:1 비율이 아니면, 타원 */
     overflow: hidden;
 }
-
+/* ============== 야미소개 스타일 =============== */
+.breadcrumb {
+    background: #d60c00;
+    color: white;
+    padding: 15px 0;
+}
+.breadcrumb-wrap {    
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+.print-btns {
+    display: flex;
+}
 
 /* ============== 어사이드 스타일 =============== */
 aside {
-    margin: 50px 0 30px;
+    margin: 50px 0 30px; /* 위 50, 좌우0, 아래 30 */
 }
 .extra-links {
-    height: 60px;
     display: flex;
+    padding: 20px 0; /* vs height, align-items 적용 */
     justify-content: center;
-    align-items: center;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
 }
 .extra-links li:nth-child(2) {
     margin: 0 15px;
 }
+
 /* ============== 푸터 스타일 =============== */
 footer {
     display: flex;
